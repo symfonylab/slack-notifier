@@ -18,11 +18,5 @@
         "exclude-from-classmap": [
             "/Tests/"
         ]
-    },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.0-dev"
-        }
     }
 }
