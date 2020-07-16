@@ -43,6 +43,7 @@ final class SlackOptions implements MessageOptionsInterface
             $attachment->text($notification->getContent());
             $attachment->image($notification->getImageUrl());
             $attachment->color('#ff0000');
+            $options->attachment($attachment);
 
             return $options;
         }
