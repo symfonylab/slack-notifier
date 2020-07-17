@@ -46,6 +46,9 @@ final class SlackOptions implements MessageOptionsInterface
                 case Notification::IMPORTANCE_HIGH:
                     $attachment->color('#ff0000');
                 break;
+                case Notification::IMPORTANCE_MEDIUM:
+                    $attachment->color('#ffd700');
+                    break;
                 case Notification::IMPORTANCE_LOW:
                     $attachment->color('#00FF00');
                 break;
